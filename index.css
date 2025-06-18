@@ -1,0 +1,33 @@
+body {
+    padding-top: 56px;
+}
+
+.product-image {
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.rating {
+    color: gold;
+    font-size: 1.2em;
+}
+
+.cart-item img {
+    max-height: 80px;
+}
+
+.toast {
+    opacity: 1 !important;
+}
+
+@media (max-width: 768px) {
+    .product-image {
+        height: 150px;
+    }
+}
